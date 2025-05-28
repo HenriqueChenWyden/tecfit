@@ -38,7 +38,7 @@ function Login() {
             password: senha
         };
 
-        fetch("http://localhost:8080/auth/register", {
+        fetch("https://tecfit-back.vercel.app/auth/register", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ function Login() {
             password: senha
         };
 
-        fetch("http://localhost:8080/auth/login", {
+        fetch("https://tecfit-back.vercel.app/auth/login", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
